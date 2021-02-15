@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.login-section {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border: 1px solid #dadce0;
+    border-radius: 9px;
+}
+
+.login-section > form {
+    padding: 30px;
+}
+
+.login-section > form input {
+    font-size: 12px;
+}
+
+.login-section > form label, a{
+    font-size: 12px;
+}
+
+.login-section > form button {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login-section > form > .form-group {
+    padding-top: 20px;
+}
+
+.error-container > .error {
+    border: 1px solid #ff0033;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error-container > .error > .error-message {
+    color: #ff0033;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
